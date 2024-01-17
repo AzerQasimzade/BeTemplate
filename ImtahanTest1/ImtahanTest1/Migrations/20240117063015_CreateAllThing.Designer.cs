@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ImtahanTest1.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240116122858_Something")]
-    partial class Something
+    [Migration("20240117063015_CreateAllThing")]
+    partial class CreateAllThing
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
